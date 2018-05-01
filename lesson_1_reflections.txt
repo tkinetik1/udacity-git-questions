@@ -1,0 +1,42 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing a diff is a different way to compare files than going to the browser on github.  
+It uses similar "-,+" comparison symbols.
+The diff call showed in comparison, in the terminal, the additions and subtractions from each file... compared inline.
+
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Bugs often are mistakes.  
+People sometimes make changes they cannot remember.  
+Working with a team can be confusing to see what changes each contributor has made. 
+Having access will help sove these problems with saved files and versioning.
+
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: No unnecessary saves when not needed or in the middle of adding one functionality.  Exact control.
+
+Cons: You may forget to make a commit that is needed, forgetting the documenting of a specific feature.  You don't know exactly when or why the commit was made.  It is hard to save a comment to the commit.
+
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows multiple file save in a repository because the associated files are often used in sync.
+
+Docs doesn't usually have files that effect each other or are connected.
+
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+
+Git log will give the user a list of commits on the file.  Git diff w/ the two different commits will compare the two and list changes with (+,-) notations.
+
+Q6: How might using version control make you more confident to make changes that could break something?
+
+Version Control allows me to go back and forth through versions without losing the previous versions or to save over the latest commit.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to use VCS on my android studio projects.  I'd like to learn how to implement a new feature without changing the current commit.  Perhaps I can use a branch?
+
+

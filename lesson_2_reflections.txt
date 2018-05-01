@@ -13,3 +13,8 @@ The user can compare the working directory with the staging directory, to view t
 Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 The user can create different versions of a file, detached from the master branch directory.  i.e. adding an experimental change, creating a free and paid version of game. The user could use branches to create new features in the game or to resolve issues involved with bugs or internal operations.
+
+Q5: How do the diagrams help you visualize the branch structure?
+
+The structure of branches and commits are not linear and are isolated at times.  Because each commit is dependent on its parent commit, detaching the head from an older commit will not be associated with a branch, until the new commit has been turned into it's own branch.  It looks like that new branch can then be merged back with Master or a different branch in order to commit the new changes to the master branch.  Diagrams isolate branches and each commit as well as diagraming the merge back to a branch.
+
