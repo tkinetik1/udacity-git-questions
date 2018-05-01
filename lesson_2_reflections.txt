@@ -1,0 +1,7 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+
+Git init will make a repository  out of the current directory and sub-folders.  No commits have yet been made, therefore, git status shows a fatal error, "your current branch 'master' does not have any commits yet".  Initialize Git then make your first commit to solve error.
+
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you add, remove, and get status for your current working directory before making the initial commit and following commits.
