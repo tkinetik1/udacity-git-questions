@@ -4,4 +4,8 @@ Git init will make a repository  out of the current directory and sub-folders.  
 
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area allows you add, remove, and get status for your current working directory before making the initial commit and following commits.
+The staging area allows the user to add, remove, and get status for your current working directory before making the initial commit and following commits.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+The user can compare the working directory with the staging directory, to view the current changes between files added in the staging area and the working directory.  The user can also compare the staging area with the current commit.
