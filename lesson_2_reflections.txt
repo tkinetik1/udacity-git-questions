@@ -9,3 +9,7 @@ The staging area allows the user to add, remove, and get status for your current
 Q3: How can you use the staging area to make sure you have one commit per logical change?
 
 The user can compare the working directory with the staging directory, to view the current changes between files added in the staging area and the working directory.  The user can also compare the staging area with the current commit.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+The user can create different versions of a file, detached from the master branch directory.  i.e. adding an experimental change, creating a free and paid version of game. The user could use branches to create new features in the game or to resolve issues involved with bugs or internal operations.
