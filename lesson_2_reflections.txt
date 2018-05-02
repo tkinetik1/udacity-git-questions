@@ -18,3 +18,9 @@ Q5: How do the diagrams help you visualize the branch structure?
 
 The structure of branches and commits are not linear and are isolated at times.  Because each commit is dependent on its parent commit, detaching the head from an older commit will not be associated with a branch, until the new commit has been turned into it's own branch.  It looks like that new branch can then be merged back with Master or a different branch in order to commit the new changes to the master branch.  Diagrams isolate branches and each commit as well as diagraming the merge back to a branch.
 
+Q5: What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+
+Mergine two branches together puts together all commits from two branches... i.e. commit branch 1 and 2 (with their associated commits relative to each other, and the new branch, branch 3.  All branches are respective of their parents.  We represent it in the diagram in order to see which branches are associated with each other and which commits are associated with each other to merge into the current working branch.
+
+
+
