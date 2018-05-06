@@ -22,5 +22,9 @@ Q5: What is the result of merging two branches together? Why do we represent it 
 
 Mergine two branches together puts together all commits from two branches... i.e. commit branch 1 and 2 (with their associated commits relative to each other, and the new branch, branch 3.  All branches are respective of their parents.  We represent it in the diagram in order to see which branches are associated with each other and which commits are associated with each other to merge into the current working branch.
 
+Q6: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging works great when there are no file merge conflicts though it cannot merge 2 files that are both modified.  Features implemented in the new merge allows users to find the conflict and resolve the conflict between the different authors.  Manual merge is used to resolve these conflicting merges but would be tedious to compare diff all found files.  
+
 
 
