@@ -1,0 +1,3 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+The user should create a remote repository when they are A) working on the project from two or more different locations, B) Adding a file manually to remote through github, C) collaborating with a team on a team project and looking to merge another developer's branch.
