@@ -5,3 +5,8 @@ The user should create a remote repository when they are A) working on the proje
 Q2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 This might make unnecesarry changes to your current remote, which can be contributed to by multiple users with different changes in the same file or impolementation of something that is counter-productive to the current branch.  This could be confusing if a whole new feature set was pulled in our a major change was made through an automatic pull.
+
+Q3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a copy of another's repository on github to your own github repository.  It leaves a traceback to the original repository that was cloned.  A clone is a local copy of a remote repository. A branch is a set of commits on either local or remote or both.  Use a fork when we want to work on a public branch project on our own, as a remote.  Use a clone to get a local copy of the repository which points at the origin remote repository.  Use a branch to make specific changes locally and to push to remote or to view other parallel work in collaboration on project.
+
