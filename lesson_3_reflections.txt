@@ -14,3 +14,6 @@ Q4: What is the benefit of having a copy of the last known state of the remote s
 
 It allows the developer to go back to the current working state and our get a diff from the current working remote.  It also prohibits new code from being updated, that may create conflicts or bugs based on others changing the remote.  A user can also merge there current commit and branch when finished with their merge commit to last know state of remote stored locally.
 
+Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaboration without Git or Github would be similar to Git, plus a bunch of complexities that aren't automated through the service.  A master branch would have to be verified by each contributer before making a commit to master from other versions.  If not all versions are working, bugs/types/features will break if not implemented perfectly.  Many phone calls and conference would be needed to find out bug/type issues, not having tracked each contributors branch and not having a "diff"/compare feature. 3+ contributors collaboration would become more and more complex.  Having a tracked log from each contributor with each change specifically being compared to experimental and master/production branch would be more efficient and easier.
