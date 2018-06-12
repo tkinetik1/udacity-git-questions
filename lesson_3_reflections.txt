@@ -17,3 +17,7 @@ It allows the developer to go back to the current working state and our get a di
 Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Collaboration without Git or Github would be similar to Git, plus a bunch of complexities that aren't automated through the service.  A master branch would have to be verified by each contributer before making a commit to master from other versions.  If not all versions are working, bugs/types/features will break if not implemented perfectly.  Many phone calls and conference would be needed to find out bug/type issues, not having tracked each contributors branch and not having a "diff"/compare feature. 3+ contributors collaboration would become more and more complex.  Having a tracked log from each contributor with each change specifically being compared to experimental and master/production branch would be more efficient and easier.
+
+Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Creating a seperate branch from master is for things like bug fixes, experimental features, collaborative sub groups, making diff calls to avoid merge conflicts, and to allow for pull requests to be presented and approved.
